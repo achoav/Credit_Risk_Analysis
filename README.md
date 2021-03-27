@@ -44,14 +44,14 @@ The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the d
 
 ## Summary of all Scores by Resampling Model<br />
 
-**Naive Random Oversampling (using function RandomOverSampler)<br />
+__Naive Random Oversampling__ (using function RandomOverSampler)<br />
 ![image alt <](/scores_RandomOverSampler.PNG)<br />
 
-**SMOTE Oversampling (using function SMOTE)<br />
+__SMOTE Oversampling__ (using function SMOTE)<br />
 ![image alt <](/scores_SMOTE.PNG)<br />
 
-**Undersampling (using function ClusterCentroids)<br />
+__Undersampling__ (using function ClusterCentroids)<br />
 ![image alt <](/scores_UnderSampling.PNG)<br />
 
-**Combination Over and Under Sampling (using function SMOOTEENN)<br />
+__Combination Over and Under Sampling__ (using function SMOOTEENN)<br />
 ![image alt <](/scores_SMOOTEEN.PNG)<br />
