@@ -4,7 +4,7 @@ Credit risk is an inherently __unbalanced classification__ problem , as good loa
 
 From LendingClub, a peer-to-peer lending services company, we will import a credit card dataset named __"LoanStats_2019Q1.csv"__.  We will use several models to predict credit risk, and find out what are the best models for this type of data.<br />
 
-# Part 1 - Use Resampling Models to Predict Credit Risk<br />
+# Part 1 and 2 - Use Resampling Models to Predict Credit Risk<br />
 
 The goal is to evaluate three machine learning models by using resampling to determine which is better at predicting risk.  With all those 3 models we will perform the following steps: resample the dataset, view the count of the target sets, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 
