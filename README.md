@@ -11,13 +11,14 @@ The goal is to evaluate three machine learning models by using resampling to det
 The dataset is unbalanced, as the dataset contains: 68,470 low_risk and 347 high_risk.  Hence the 99.5% (majority class) and 0.5% (target class).
 The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the data train dataset, and created synthetic points for the low risk.  So the new dataset has 51,366 high and low risk points, being equaly balanced.  Using the LogisticRegression model we will calculate the accuracy score, a confusion matrix
 
-# 1. RandomOverSampler6
+# 1. RandomOverSampler
+**Confusion Matrix**
 
-##Confusion Matrix
-![](/Confusion_Matrix_RandomOverSampler.PNG)
+![image alt<](/Confusion_Matrix_RandomOverSampler.PNG)
 
-##Imbalanced Classification
-![](/classification_report_RandomOverSampler.PNG)
+**Imbalanced Classification**
+
+![image alt <](/classification_report_RandomOverSampler.PNG)
 
 # 2. SMOTE
 
