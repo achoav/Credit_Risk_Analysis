@@ -12,50 +12,46 @@ The dataset is unbalanced, as the dataset contains: 68,470 low_risk and 347 high
 The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the data train dataset, and created synthetic points for the low risk.  So the new dataset has 51,366 high and low risk points, being equaly balanced.  Using the LogisticRegression model we will calculate the accuracy score, a confusion matrix.<br />
 
 # 1. RandomOverSampler<br />
-**Confusion Matrix**<br />
-
+##Confusion Matrix<br />
 ![image alt<](/Confusion_Matrix_RandomOverSampler.PNG)
 <br />
-**Imbalanced Classification**<br />
-
+##Imbalanced Classification<br />
 ![image alt <](/classification_report_RandomOverSampler.PNG)
 <br />
-# 2. SMOTE
+# 2. SMOTE<br />
+##Confusion Matrix<br />
+![image alt <](/Confusion_Matrix_SMOTE.PNG)<br />
 
-**Confusion Matrix**
+##Imbalanced Classification<br />
+![image alt <](/classification_report_SMOTE.PNG)<br />
 
-![image alt <](/Confusion_Matrix_SMOTE.PNG)
+# 3. ClusterCentroids<br />
 
-**Imbalanced Classification**
-![image alt <](/classification_report_SMOTE.PNG)
+##Confusion Matrix<br />
+![image alt <](/Confusion_Matrix_UnderSampling.PNG)<br />
 
-# 3. ClusterCentroids
+##Imbalanced Classification<br />
+![image alt <](/classification_report_UnderSampling.PNG)<br />
 
-**Confusion Matrix**
-![image alt <](/Confusion_Matrix_UnderSampling.PNG)
+# 4. SMOOTEENN<br />
 
-**Imbalanced Classification**
-![image alt <](/classification_report_UnderSampling.PNG)
+##Confusion Matrix<br />
+![image alt <](/Confusion_Matrix_SMOOTEEN.PNG)<br />
 
-# 4. SMOOTEENN
-
-**Confusion Matrix**
-![image alt <](/Confusion_Matrix_SMOOTEEN.PNG)
-
-**Imbalanced Classification**
-![image alt <](/classification_report_UnderSampling.PNG)
+##Imbalanced Classification<br />
+![image alt <](/classification_report_UnderSampling.PNG)<br />
 
 
-## Summary of all Scores by Resampling Model
+## Summary of all Scores by Resampling Model<br />
 
-### Naive Random Oversampling (using function RandomOverSampler)
-![image alt <](/scores_RandomOverSampler.PNG)
+### Naive Random Oversampling (using function RandomOverSampler)<br />
+![image alt <](/scores_RandomOverSampler.PNG)<br />
 
-### SMOTE Oversampling (using function SMOTE)
-![image alt <](/scores_SMOTE.PNG)
+### SMOTE Oversampling (using function SMOTE)<br />
+![image alt <](/scores_SMOTE.PNG)<br />
 
-### Undersampling (using function ClusterCentroids)
-![image alt <](/scores_UnderSampling.PNG)
+### Undersampling (using function ClusterCentroids)<br />
+![image alt <](/scores_UnderSampling.PNG)<br />
 
-### Combination Over and Under Sampling (using function SMOOTEENN)
-![image alt <](/scores_SMOOTEEN.PNG)
+### Combination Over and Under Sampling (using function SMOOTEENN)<br />
+![image alt <](/scores_SMOOTEEN.PNG)<br />
