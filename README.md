@@ -56,5 +56,43 @@ __Undersampling__ (using function ClusterCentroids)<br />
 __Combination Over and Under Sampling__ (using function SMOOTEENN)<br />
 ![image alt <](/scores_SMOOTEEN.PNG)<br />
 
-Overall, the best resampling model for our specific dataste was **SMOTE**, which reported a **f-1 score of 0.81**, with an accuracy of 0.99 and a recall of 0.69.  The ranking of f-1 scores for our dataset stands: 1. SMOTE Oversampling 0.81, 2. Naïve Random OverSampling (0.78), 3. Combination Under and Over Sampling - SMOTEENN (0.74), 4. UnderSampling (0.56).
+# Summary
+
+Overall, the best resampling model for our specific database was **SMOTE**, which reported a **f-1 score of 0.81**, with an accuracy of 0.66 and a recall of 0.63 for High Risk loans.  The best ensemble learner model for our specific database was **Easy Ensemble AdaBoost Classifier**, with an accuracy of 0.92 and a recall of 0.91 for High Risk loans.
+
+However, we want to find the best model for our specific dataset, so we will rank them on f-1 scores, recall rate for High Risk loans, recall rate for Low Risk loans, and accuracy:
+
+## The ranking of f-1 scores for our dataset stands: 
+1. Easy Ensemble AdaBoostClassifying (0.97)
+2. Balanced Random Forest Classifier (0.95)
+3. SMOTE Oversampling (0.81) 
+4. Naïve Random OverSampling (0.78)
+5. SMOTEENN Over and Under Sampling (0.72)
 <br />
+## The ranking of recall rate for High Risk loans:
+This analysis is trying to find the best model that can detect if a loan is high risk or not. Becasue of that, we need to find a model that lets the least amount of high risk loans pass through undetected. That correlating statistic for this is the **recall rate** for **High Risk**. Looking through the different models, the ones that scored the highest were:
+1. Easy Ensemble AdaBoost Classifying (0.91)
+2. SMOTEENN Over and Under Sampling (0.79)
+3. Naive Random Oversampling (0.69)
+4. Balanced Random Forest Classifier (0.67)
+5. SMOTE Oversampling (0.63)
+<br />
+## The ranking of recall rate for Low Risk loans:
+While the recall rate for High Risk loans is the most important statistic that is pulled from this analysis, another important statistic is **recall rate** for **low risk** as it shows how many low risk loans are flagged as high risk. Looking through the different models, the ones that scored the highest were:
+<br />
+1. Easy Ensemble AdaBoost Classifying (0.94)
+2. Balanced Random Forest Classifying (0.91)
+3. SMOTE Oversampling (0.69)
+4. Naive Random Oversampling (0.64)
+5. SMOTEENN Over and Under Sampling (0.56)
+<br />
+## The ranking of accuracy:
+After taking these two statistics over the others, we can look at the accurary score to get a picture of how well the model performs in general. The models with the highest **accuracy scores** were:
+<br />
+1. Easy Ensemble Classify (0.925)
+2. Balanced Random Forest Classifying (0.788)
+3. SMOTEENN Over and Under Sampling (0.678)
+4. Naive Random Oversampling (0.669)
+5. SMOTE Oversampling (0.663)
+<br />
+After factoring in these three main statistics, the model that I would recommend to use for predicting high risk loans is the Easy Ensemble Classifying model.
