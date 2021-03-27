@@ -55,3 +55,6 @@ __Undersampling__ (using function ClusterCentroids)<br />
 
 __Combination Over and Under Sampling__ (using function SMOOTEENN)<br />
 ![image alt <](/scores_SMOOTEEN.PNG)<br />
+
+Overall, the best resampling model for our specific datase was SMOTE, which reported a f-1 score of 0.81, with an accuracy of 0.99 and a recall of 0.69.  The ranking of f-1 scores for our dataset stands: 1. SMOTE Oversampling 0.81, 2. Naïve Random OverSampling (0.78), 3. Combination Under and Over Sampling - SMOTEENN (0.74), 4. UnderSampling (0.56).
+<br />
