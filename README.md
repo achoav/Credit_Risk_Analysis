@@ -12,28 +12,36 @@ The dataset is unbalanced, as the dataset contains: 68,470 low_risk and 347 high
 The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the data train dataset, and created synthetic points for the low risk.  So the new dataset has 51,366 high and low risk points, being equaly balanced.  Using the LogisticRegression model we will calculate the accuracy score, a confusion matrix
 
 # 1. RandomOverSampler6
+
 ##Confusion Matrix
 ![](/Confusion_Matrix_RandomOverSampler.PNG)
+
 ##Imbalanced Classification
-![](/classification_RandomOverSampler.PNG)
+![](/classification_report_RandomOverSampler.PNG)
 
 # 2. SMOTE
+
 ##Confusion Matrix
 ![](/Confusion_Matrix_SMOTE.PNG)
+
 ##Imbalanced Classification
-![](/classification_SMOTE.PNG)
+![](/classification_report_SMOTE.PNG)
 
 # 3. ClusterCentroids
+
 ##Confusion Matrix
 ![](/Confusion_Matrix_UnderSampling.PNG)
+
 ##Imbalanced Classification
-![](/classification_UnderSampling.PNG)
+![](/classification_report_UnderSampling.PNG)
 
 # 4. SMOOTEENN
+
 ##Confusion Matrix
 ![](/Confusion_Matrix_SMOOTEEN.PNG)
+
 ##Imbalanced Classification
-![](/classification_UnderSampling.PNG)
+![](/classification_report_UnderSampling.PNG)
 
 ## 1. RandomOverSampler
 
