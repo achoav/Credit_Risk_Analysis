@@ -69,6 +69,7 @@ However, we want to find the best model for our specific dataset, so we will ran
 4. Naïve Random OverSampling (0.78)
 5. SMOTEENN Over and Under Sampling (0.72)
 <br />
+
 ## The ranking of recall rate for High Risk loans:
 This analysis is trying to find the best model that can detect if a loan is high risk or not. Becasue of that, we need to find a model that lets the least amount of high risk loans pass through undetected. That correlating statistic for this is the **recall rate** for **High Risk**. Looking through the different models, the ones that scored the highest were:
 1. Easy Ensemble AdaBoost Classifying (0.91)
@@ -77,6 +78,7 @@ This analysis is trying to find the best model that can detect if a loan is high
 4. Balanced Random Forest Classifier (0.67)
 5. SMOTE Oversampling (0.63)
 <br />
+
 ## The ranking of recall rate for Low Risk loans:
 While the recall rate for High Risk loans is the most important statistic that is pulled from this analysis, another important statistic is **recall rate** for **low risk** as it shows how many low risk loans are flagged as high risk. Looking through the different models, the ones that scored the highest were:
 <br />
@@ -86,6 +88,7 @@ While the recall rate for High Risk loans is the most important statistic that i
 4. Naive Random Oversampling (0.64)
 5. SMOTEENN Over and Under Sampling (0.56)
 <br />
+
 ## The ranking of accuracy:
 After taking these two statistics over the others, we can look at the accurary score to get a picture of how well the model performs in general. The models with the highest **accuracy scores** were:
 <br />
@@ -95,4 +98,6 @@ After taking these two statistics over the others, we can look at the accurary s
 4. Naive Random Oversampling (0.669)
 5. SMOTE Oversampling (0.663)
 <br />
+
+
 After factoring in these three main statistics, the model that I would recommend to use for predicting high risk loans is the Easy Ensemble Classifying model.
