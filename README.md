@@ -22,37 +22,40 @@ The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the d
 
 # 2. SMOTE
 
-##Confusion Matrix
-![](/Confusion_Matrix_SMOTE.PNG)
+**Confusion Matrix**
 
-##Imbalanced Classification
-![](/classification_report_SMOTE.PNG)
+![image alt <](/Confusion_Matrix_SMOTE.PNG)
+
+**Imbalanced Classification**
+![image alt <](/classification_report_SMOTE.PNG)
 
 # 3. ClusterCentroids
 
-##Confusion Matrix
-![](/Confusion_Matrix_UnderSampling.PNG)
+**Confusion Matrix**
+![image alt <](/Confusion_Matrix_UnderSampling.PNG)
 
-##Imbalanced Classification
-![](/classification_report_UnderSampling.PNG)
+**Imbalanced Classification**
+![image alt <](/classification_report_UnderSampling.PNG)
 
 # 4. SMOOTEENN
 
-##Confusion Matrix
-![](/Confusion_Matrix_SMOOTEEN.PNG)
+**Confusion Matrix**
+![image alt <](/Confusion_Matrix_SMOOTEEN.PNG)
 
-##Imbalanced Classification
-![](/classification_report_UnderSampling.PNG)
-
-## 1. RandomOverSampler
+**Imbalanced Classification**
+![image alt <](/classification_report_UnderSampling.PNG)
 
 
 ## Summary of all Scores by Resampling Model
+
 ### Naive Random Oversampling (using function RandomOverSampler)
-![](/scores_RandomOverSampler.PNG)
+![image alt <](/scores_RandomOverSampler.PNG)
+
 ### SMOTE Oversampling (using function SMOTE)
-![](/scores_SMOTE.PNG)
+![image alt <](/scores_SMOTE.PNG)
+
 ### Undersampling (using function ClusterCentroids)
-![](/scores_UnderSampling.PNG)
+![image alt <](/scores_UnderSampling.PNG)
+
 ### Combination Over and Under Sampling (using function SMOOTEENN)
-![](/scores_SMOOTEEN.PNG)
+![image alt <](/scores_SMOOTEEN.PNG)
