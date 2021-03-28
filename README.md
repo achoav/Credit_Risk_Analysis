@@ -51,7 +51,7 @@ Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classi
 - An accuracy score for the model is calculated: 
 - A confusion matrix has been generated
 - An imbalanced classification report has been generated
-- - The features are sorted in descending order by feature importance
+- The features are sorted in descending order by feature importance
 
 ![image alt <](/Random_Forest_Confusion_Matrix.PNG)
 <br />
