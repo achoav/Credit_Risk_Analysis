@@ -57,7 +57,7 @@ Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classi
 <br />
 ![image alt <](/Classification_report_Random.PNG)
 <br />
-![image alt <](/Random_Features.PNG)<br />
+![](/Random_Features.PNG)
 <br />
 
 ## Easy Ensemble Classifier
