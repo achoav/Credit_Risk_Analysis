@@ -42,12 +42,24 @@ The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the d
 **Imbalanced Classification**<br />
 ![image alt <](/classification_report_UnderSampling.PNG)<br />
 
+Naive Random Oversampling:<br />
+![](/part1.PNG)
+<br />
+SMOTE Oversampling: <br />
+![](/part2.PNG)
+<br />
+Undersampling: <br />
+![](/part3.PNG)
+<br />
+Combination Over and Under Sampling - SMOTEENN: <br />
+![](/part4.PNG)
+<br />
 
 # Part 3 and 4 - Use Ensemble Classifiers to Predict Credit Risk<br />
 
 Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classifier, I will resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 
-## Random Forest Classifier
+## 5. Balanced Random Forest Classifier
 - An accuracy score for the model is calculated: 
 - A confusion matrix has been generated
 - An imbalanced classification report has been generated
@@ -59,7 +71,7 @@ Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classi
 <br />  
 ![](/Random_Features.PNG)
 <br />  
-## Easy Ensemble Classifier
+## 6. Easy Ensemble AdaBoost Classifier
 - An accuracy score of the model is calculated
 - A confusion matrix has been generated
 - An imbalanced classification report has been generated
