@@ -13,46 +13,46 @@ The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the d
 
 # 1. RandomOverSampler<br />
 **Confusion Matrix**<br />
-![image alt<](/Confusion_RandomOverSampler.PNG)
+![image alt<](/Images/Confusion_RandomOverSampler.PNG)
 <br />
 **Imbalanced Classification**<br />
-![image alt <](/classification_report_RandomOverSampler.PNG)
+![image alt <](/Images/classification_report_RandomOverSampler.PNG)
 <br />
 # 2. SMOTE<br />
 **Confusion Matrix**<br />
-![image alt <](/Confusion_Matrix_SMOTE.PNG)<br />
+![image alt <](/Images/Confusion_Matrix_SMOTE.PNG)<br />
 
 **Imbalanced Classification**<br />
-![image alt <](/classification_report_SMOTE.PNG)<br />
+![image alt <](/Images/classification_report_SMOTE.PNG)<br />
 
 # 3. ClusterCentroids<br />
 
 **Confusion Matrix**
 <br />
-![image alt <](/Confusion_Matrix_UnderSampling.PNG)<br />
+![image alt <](/Images/Confusion_Matrix_UnderSampling.PNG)<br />
 
 **Imbalanced Classification**<br />
-![image alt <](/classification_report_UnderSampling.PNG)<br />
+![image alt <](/Images/classification_report_UnderSampling.PNG)<br />
 
 # 4. SMOOTEENN<br />
 
 **Confusion Matrix**<br />
-![image alt <](/Confusion_Matrix_SMOOTEEN.PNG)<br />
+![image alt <](/Images/Confusion_Matrix_SMOOTEEN.PNG)<br />
 
 **Imbalanced Classification**<br />
-![image alt <](/classification_report_UnderSampling.PNG)<br />
+![image alt <](/Images/classification_report_UnderSampling.PNG)<br />
 
 Naive Random Oversampling:<br />
-![](/part1.PNG)
+![](/Images/part1.PNG)
 <br />
 SMOTE Oversampling: <br />
-![](/part2.PNG)
+![](/Images/part2.PNG)
 <br />
 Undersampling: <br />
-![](/part3.PNG)
+![](/Images/part3.PNG)
 <br />
 Combination Over and Under Sampling - SMOTEENN: <br />
-![](/part4.PNG)
+![](/Images/part4.PNG)
 <br />
 
 # Part 3 and 4 - Use Ensemble Classifiers to Predict Credit Risk<br />
@@ -65,21 +65,21 @@ Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classi
 - An imbalanced classification report has been generated
 - The features are sorted in descending order by feature importance
 
-![](/Confusion_Matrix_Random_Forest.PNG)
+![](/Images/Confusion_Matrix_Random_Forest.PNG)
 <br />  
-![](/classification_report_Random.PNG)
+![](/Images/classification_report_Random.PNG)
 <br />  
-![](/Random_Features.PNG)
+![](/Images/Random_Features.PNG)
 <br />  
 ## 6. Easy Ensemble AdaBoost Classifier
 - An accuracy score of the model is calculated: 0.9254
 - A confusion matrix has been generated
 - An imbalanced classification report has been generated
+  
+![](/Images/Confusion_Matrix_ada.PNG)
 <br />  
-![Confusion_Matrix_ada](https://user-images.githubusercontent.com/73545138/112739208-5152ec80-8f40-11eb-9cf6-399c719b7678.PNG)
+![](/Images/classification_report_ada.PNG)
 <br />  
-![classification_report_ada](https://user-images.githubusercontent.com/73545138/112739210-54e67380-8f40-11eb-9196-c2cab3b6c0aa.PNG)
-<br />
 
 # Summary
 
