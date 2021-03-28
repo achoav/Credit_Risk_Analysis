@@ -126,7 +126,7 @@ After taking these two statistics over the others, we can look at the accurary s
 
 After factoring in these main statistics, the model that I would recommend to use for predicting high risk loans is the Easy Ensemble AdaBoost Classifying model followed by Balanced Random Forest Classifying.
 
-This can also be visually seen on the following Precision Recall Graph comparison:
+This can also be visually seen on the following Precision Recall Graph comparison of the two Ensemble Models:
 <br />
-![image alt <](/ensemble.PNG)<br />
+![image alt <](/Images/ensemble.PNG)<br />
 
