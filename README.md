@@ -60,7 +60,7 @@ Combination Over and Under Sampling - SMOTEENN: <br />
 Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classifier, I will resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 
 ## 5. Balanced Random Forest Classifier
-- An accuracy score for the model is calculated: 
+- An accuracy score for the model is calculated: 0.7878
 - A confusion matrix has been generated
 - An imbalanced classification report has been generated
 - The features are sorted in descending order by feature importance
