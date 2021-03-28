@@ -72,13 +72,13 @@ Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classi
 ![](/Random_Features.PNG)
 <br />  
 ## 6. Easy Ensemble AdaBoost Classifier
-- An accuracy score of the model is calculated
+- An accuracy score of the model is calculated: 0.9254
 - A confusion matrix has been generated
 - An imbalanced classification report has been generated
 <br />  
-![](/Confusion_Matrix_EEC.PNG)
+![](/Confusion_Matrix_ada.PNG)
 <br />  
-![](/classification_report_EEC.PNG)
+![](/classification_report_ada.PNG)
 <br />
 
 # Summary
