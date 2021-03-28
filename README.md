@@ -25,7 +25,7 @@ The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the d
 **Imbalanced Classification**<br />
 ![image alt <](/Images/classification_report_SMOTE.PNG)<br />
 
-# 3. ClusterCentroids<br />
+# 3. ClusterCentroids - Under Sampling<br />
 
 **Confusion Matrix**
 <br />
@@ -40,7 +40,7 @@ The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the d
 ![image alt <](/Images/Confusion_Matrix_SMOOTEEN.PNG)<br />
 
 **Imbalanced Classification**<br />
-![image alt <](/Images/classification_report_UnderSampling.PNG)<br />
+![image alt <](/Images/classification_report_SMOOTEEN.PNG)<br />
 
 Naive Random Oversampling:<br />
 ![](/Images/part1.PNG)
