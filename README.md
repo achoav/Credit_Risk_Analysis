@@ -76,9 +76,9 @@ Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classi
 - A confusion matrix has been generated
 - An imbalanced classification report has been generated
 <br />  
-![](/Confusion_Matrix_ada.PNG)
+![Confusion_Matrix_ada](https://user-images.githubusercontent.com/73545138/112739208-5152ec80-8f40-11eb-9cf6-399c719b7678.PNG)
 <br />  
-![](/classification_report_ada.PNG)
+![classification_report_ada](https://user-images.githubusercontent.com/73545138/112739210-54e67380-8f40-11eb-9196-c2cab3b6c0aa.PNG)
 <br />
 
 # Summary
