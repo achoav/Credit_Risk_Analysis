@@ -43,20 +43,6 @@ The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the d
 ![image alt <](/classification_report_UnderSampling.PNG)<br />
 
 
-## Summary of all Scores by Resampling Model<br />
-
-__Naive Random Oversampling__ (using function RandomOverSampler)<br />
-![image alt <](/scores_RandomOverSampler.PNG)<br />
-
-__SMOTE Oversampling__ (using function SMOTE)<br />
-![image alt <](/scores_SMOTE.PNG)<br />
-
-__Undersampling__ (using function ClusterCentroids)<br />
-![image alt <](/scores_UnderSampling.PNG)<br />
-
-__Combination Over and Under Sampling__ (using function SMOOTEENN)<br />
-![image alt <](/scores_SMOOTEEN.PNG)<br />
-
 # Part 3 and 4 - Use Ensemble Classifiers to Predict Credit Risk<br />
 
 Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classifier, I will resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
