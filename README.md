@@ -47,7 +47,7 @@ The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the d
 
 Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classifier, I will resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 
-## Random Forest Classifier
+## 5. Balanced Random Forest Classifier
 - An accuracy score for the model is calculated: 
 - A confusion matrix has been generated
 - An imbalanced classification report has been generated
@@ -59,7 +59,7 @@ Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classi
 <br />  
 ![](/Random_Features.PNG)
 <br />  
-## Easy Ensemble Classifier
+## 6. Easy Ensemble AdaBoost Classifier
 - An accuracy score of the model is calculated
 - A confusion matrix has been generated
 - An imbalanced classification report has been generated
