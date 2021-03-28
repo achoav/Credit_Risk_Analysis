@@ -27,7 +27,8 @@ The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the d
 
 # 3. ClusterCentroids<br />
 
-**Confusion Matrix**<br />
+**Confusion Matrix**
+<br />
 ![image alt <](/Confusion_Matrix_UnderSampling.PNG)<br />
 
 **Imbalanced Classification**<br />
@@ -126,5 +127,6 @@ After taking these two statistics over the others, we can look at the accurary s
 After factoring in these main statistics, the model that I would recommend to use for predicting high risk loans is the Easy Ensemble AdaBoost Classifying model followed by Balanced Random Forest Classifying.
 
 This can also be visually seen on the following Precision Recall Graph comparison:
+<br />
 ![image alt <](/ensemble.PNG)<br />
 
