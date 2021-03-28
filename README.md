@@ -56,6 +56,30 @@ __Undersampling__ (using function ClusterCentroids)<br />
 __Combination Over and Under Sampling__ (using function SMOOTEENN)<br />
 ![image alt <](/scores_SMOOTEEN.PNG)<br />
 
+# Part 3 and 4 - Use Ensemble Classifiers to Predict Credit Risk<br />
+
+Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classifier, I will resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
+
+## Random Forest Classifier
+- An accuracy score for the model is calculated: 
+<br />
+- A confusion matrix has been generated
+![image alt <](/Random_Forest_Confusion_Matrix.PNG)
+<br />
+- An imbalanced classification report has been generated
+![image alt <](/Classification_report_Random.PNG)<br />
+<br />
+- The features are sorted in descending order by feature importance
+![image alt <](/Random_Features.PNG)<br />
+
+## Easy Ensemble Classifier
+- An accuracy score of the model is calculated
+- A confusion matrix has been generated
+![image alt <](/EEC_Confusion_Matrix_EEC.PNG)
+<br />
+- An imbalanced classification report has been generated
+![image alt <](/Classification_report_EEC.PNG)<br />
+
 # Summary
 
 Overall, the best resampling model for our specific database was **SMOTE**, which reported a **f-1 score of 0.81**, with an accuracy of 0.66 and a recall of 0.63 for High Risk loans.  The best ensemble learner model for our specific database was **Easy Ensemble AdaBoost Classifier**, with an accuracy of 0.92 and a recall of 0.91 for High Risk loans.
@@ -92,12 +116,15 @@ While the recall rate for High Risk loans is the most important statistic that i
 ## The ranking of accuracy:
 After taking these two statistics over the others, we can look at the accurary score to get a picture of how well the model performs in general. The models with the highest **accuracy scores** were:
 <br />
-1. Easy Ensemble Classify (0.925)
+1. Easy Ensemble AdaBoost Classify (0.925)
 2. Balanced Random Forest Classifying (0.788)
 3. SMOTEENN Over and Under Sampling (0.678)
 4. Naive Random Oversampling (0.669)
 5. SMOTE Oversampling (0.663)
 <br />
 
+After factoring in these main statistics, the model that I would recommend to use for predicting high risk loans is the Easy Ensemble AdaBoost Classifying model followed by Balanced Random Forest Classifying.
 
-After factoring in these three main statistics, the model that I would recommend to use for predicting high risk loans is the Easy Ensemble Classifying model.
+This can also be visually seen on the following Precision Recall Graph comparison:
+![image alt <](/ensemble.PNG)<br />
+
