@@ -65,7 +65,7 @@ Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classi
 - An imbalanced classification report has been generated
 - The features are sorted in descending order by feature importance
 
-![](/Random_Forest_Confusion_Matrix.PNG)
+![](/Confusion_Matrix_Random_Forest.PNG)
 <br />  
 ![](/classification_report_Random.PNG)
 <br />  
@@ -76,7 +76,7 @@ Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classi
 - A confusion matrix has been generated
 - An imbalanced classification report has been generated
 <br />  
-![](/EEC_Confusion_Matrix.PNG)
+![](/Confusion_Matrix_EEC.PNG)
 <br />  
 ![](/classification_report_EEC.PNG)
 <br />
