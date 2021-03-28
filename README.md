@@ -13,7 +13,7 @@ The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the d
 
 # 1. RandomOverSampler<br />
 **Confusion Matrix**<br />
-![image alt<](/Confusion_RandomOverSampler.PNG)
+![image alt<](/Images/Confusion_RandomOverSampler.PNG)
 <br />
 **Imbalanced Classification**<br />
 ![image alt <](/classification_report_RandomOverSampler.PNG)
