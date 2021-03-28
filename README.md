@@ -42,14 +42,18 @@ The data train set has 51,366 "low_risk" and 246 "high_risk".  We resample the d
 **Imbalanced Classification**<br />
 ![image alt <](/classification_report_UnderSampling.PNG)<br />
 
-Naive Random Oversampling
+Naive Random Oversampling:<br />
 ![](/part1.PNG)
-SMOTE Oversampling
+<br />
+SMOTE Oversampling: <br />
 ![](/part2.PNG)
-Undersampling
+<br />
+Undersampling: <br />
 ![](/part3.PNG)
-Combination Over and Under Sampling - SMOTEENN
+<br />
+Combination Over and Under Sampling - SMOTEENN: <br />
 ![](/part4.PNG)
+<br />
 
 # Part 3 and 4 - Use Ensemble Classifiers to Predict Credit Risk<br />
 
