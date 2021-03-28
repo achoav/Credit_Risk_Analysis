@@ -49,23 +49,26 @@ Using both algorithms: Balance Random Forest Classifier and Easy Ensemble Classi
 
 ## Random Forest Classifier
 - An accuracy score for the model is calculated: 
-<br />
 - A confusion matrix has been generated
+- An imbalanced classification report has been generated
+- - The features are sorted in descending order by feature importance
+
 ![image alt <](/Random_Forest_Confusion_Matrix.PNG)
 <br />
-- An imbalanced classification report has been generated
-![image alt <](/Classification_report_Random.PNG)<br />
+![image alt <](/Classification_report_Random.PNG)
 <br />
-- The features are sorted in descending order by feature importance
 ![image alt <](/Random_Features.PNG)<br />
+<br />
 
 ## Easy Ensemble Classifier
 - An accuracy score of the model is calculated
 - A confusion matrix has been generated
+- An imbalanced classification report has been generated
+<br />
 ![image alt <](/EEC_Confusion_Matrix_EEC.PNG)
 <br />
-- An imbalanced classification report has been generated
 ![image alt <](/Classification_report_EEC.PNG)<br />
+<br />
 
 # Summary
 
